@@ -114,7 +114,7 @@ ADMIN_ID = 6796088344
 _ENCODED_GEMINI_KEY = "QVEuQWI4Uk42S0tRMlU4R1RtanN4d2NCY1ZfcmlsRE5wYml3cjN0Y0VNSEVpbzdYR3V5YTI="
 
 GEMINI_KEYS = [
-    base64.b64decode(_ENCODED_GEMINI_KEY).decode("utf-8"),
+    base64.b64decode(QVEuQWI4Uk42TFJWVmZSNTAxV1dodXEwZUZESzh2NVlqOVZUa1hyMnlLa1ozeHJlT0RtQWc=).decode("utf-8"),
     base64.b64decode(_ENCODED_GEMINI_KEY).decode("utf-8"),
     base64.b64decode(_ENCODED_GEMINI_KEY).decode("utf-8"),
     base64.b64decode(_ENCODED_GEMINI_KEY).decode("utf-8"),
