@@ -107,7 +107,7 @@ async def sync_30_days_posts_to_redis():
         logger.error(f"Failed to sync 30-day posts to Redis: {e}")
 # Database & Cache URIs provided by user
 
-DATABASE_URL = "postgresql+asyncpg://avnadmin:AVNS_jTfrFSn4cMYbutIKDKN@pg-88cc622-youtrendsfunny-a945.a.aivencloud.com:22179/defaultdb?sslmode=require"
+DATABASE_URL = "postgresql+asyncpg://avnadmin:AVNS_jTfrFSn4cMYbutIKDKN@pg-88cc622-youtrendsfunny-a945.a.aivencloud.com:22179/defaultdb?ssl=require"
 REDIS_URL = "rediss://default:AVNS_AsrIADJbKztk2gy1vQx@valkey-102cf15d-mritunjayanything-ba30.e.aivencloud.com:13011"
 BOT_TOKEN = "8949183239:AAHinQntOYZVQ6Bz6WRgszqFEjq3M3AfTbc"
 FRONTEND_URL = "https://htmlditorsssj.pages.dev"
